@@ -8,9 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
+import cn.testrunner.weather.base.BaseFragment
 import cn.testrunner.weather.bean.IndexBean
-import cn.testrunner.weather.bean.ResultBean
-import cn.testrunner.weather.bean.WeatherDataBean
 import cn.testrunner.weather.bean.WeatherBean
 import com.google.gson.Gson
 import com.squareup.picasso.Picasso

@@ -1,4 +1,4 @@
-package cn.testrunner.weather
+package cn.testrunner.weather.base
 
 import androidx.fragment.app.Fragment
 import org.xutils.common.Callback
