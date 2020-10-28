@@ -6,7 +6,7 @@ import org.xutils.common.Callback
 import org.xutils.http.RequestParams
 import org.xutils.x
 
-class BaseActivity : AppCompatActivity(), Callback.CommonCallback<String> {
+open class BaseActivity : AppCompatActivity(), Callback.CommonCallback<String> {
 
     fun loadData(url: String) {
         val params = RequestParams(url)

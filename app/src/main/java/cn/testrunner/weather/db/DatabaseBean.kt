@@ -1,4 +1,4 @@
 package cn.testrunner.weather.db
 
-class DatabaseBean(id: Int, city: String, content: String) {
+data class DatabaseBean(val _id: Int, val city: String, val content: String) {
 }
